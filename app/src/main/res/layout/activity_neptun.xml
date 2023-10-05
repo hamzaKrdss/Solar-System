@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starswallpaper"
+    tools:context=".Neptun">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/nepGif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/neptun_gif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/nepGif">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Güneş Sistemi'ndeki dördüncü büyük gezegendir ve gaz devleri olarak bilinen gezegenler sınıfına aittir.
+                \nNeptün'ün atmosferi, metan gazının yansımasından kaynaklanan muhteşem bir mavi renkte görünür. Bu nedenle gezegen, ''Güneş Sistemi'nin Mavi Gezegeni'' olarak da adlandırılır.
+                \nNeptün, Güneş Sistemi'ndeki en hızlı rüzgarlara sahip gezegendir. Bu rüzgarlar saatte 1,000 mil (1,609 kilometre) hızlara ulaşabilir.
+                \nNeptün'ün ince, koyu renkli halkaları vardır. Bu halkalar, buz ve toz parçacıklarından oluşur."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="İlginç Bilgiler"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:text="Neptün, büyük ölçüde hidrojen, helyum ve su buzu içeren bir gaz devi olarak kabul edilir. Büyük ölçüde su buzu içerdiği için Güneş Sistemi'ndeki diğer gaz devlerinden farklıdır.
+                \nNeptün, Güneş Sistemi'ndeki gezegenler arasında en yavaş dönen gezegendir. Bir Neptün yılı, yaklaşık 165 Dünya yılına denk gelir.
+                \nTriton, Neptün'ün en büyük uydusu ve gezegenin ters yönde dönen tek büyük uydusudur. Ayrıca, aktif bir volkanik aktiviteye sahip olduğu düşünülmektedir.
+                \nNeptün, Güneş Sistemi'nin dış sınırına oldukça yakın bir konumda bulunur ve bu nedenle çok soğuk ve zorlu bir ortama sahiptir."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

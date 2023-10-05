@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starswallpaper"
+    tools:context=".Jupiter">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/jupGif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/jupiter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/jupGif">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Güneş Sistemi'nin beşinci ve en büyük gezegenidir. Adını Roma mitolojisindeki tanrılarından birinden alır. Bu görkemli gaz devi, muazzam boyutları ve çarpıcı özellikleriyle bilim insanlarının ve gözlemcilerin ilgisini çeker.Jüpiter'in çapı yaklaşık olarak 143.000 kilometre olup, tüm diğer gezegenlerin toplam çapından daha büyüktür. Hatta birkaç büyük gezegenin toplamından daha fazla kütleye sahiptir. Öyle ki, Jüpiter'in kütlesi Güneş Sistemi'ndeki toplam diğer gezegenlerin kütlesinin yaklaşık 2,5 katıdır."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="İlginç Bilgiler"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:text="Jüpiter'in özelliklerinden biri de büyük kırmızı leke adı verilen devasa bir fırtınadır. Bu, Güneş Sistemi'nin en büyük atmosferik fırtınasıdır ve yüzlerce yıldır varlığını sürdürmektedir.
+                \nAyrıca, Jüpiter'in güçlü bir radyasyon kuşağı bulunmaktadır. Bu, uzay araştırmacıları için önemli bir risk faktörüdür. Bu radyasyon, insanlar için zararlı olabilir ve uzay araçlarının bu bölgeye girişi risklidir.
+                \nSon olarak, Jüpiter'in en az 79 uydusu bulunmaktadır. Bunların en büyüğü Ganymede, bir gezegenin uyduları arasında bilinen en büyükidir ve Merkür gezegeninden daha büyüktür."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

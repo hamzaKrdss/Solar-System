@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starswallpaper"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/gunesSistemi"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Güneş Sistemi"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/gunesSistemi">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="vertical">
+
+            <!-- Güneş ve Merkür -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal">
+
+                <!-- Güneş -->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/gunes"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/gunes"
+                        />
+                    <TextView
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        android:text="Güneş"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+
+                <!-- Merkür -->
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/merkur"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/merkur"
+                        />
+                    <TextView
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        android:text="Merkür"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Venus ve Dunya -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <!-- Güneş -->
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/venus"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/venus"
+                        />
+                    <TextView
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        android:text="Venüs"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/dunya"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/dunya"
+                        />
+                    <TextView
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        android:text="Dünya"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Mars ve Jupiter-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <!-- Güneş -->
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/mars"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/mars"
+                        />
+                    <TextView
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        android:text="Mars"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/jupiter"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/jupiter"
+                        />
+                    <TextView
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        android:text="Jupiter"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Satürn ve Uranüs-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <!-- Güneş -->
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/saturn"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/saturn"
+                        />
+                    <TextView
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        android:text="Satürn"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/uranus"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/uranus"
+                        />
+                    <TextView
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        android:text="Uranüs"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Neptün-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <!-- Güneş -->
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:id="@+id/neptun"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="180dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/neptun"
+                        />
+                    <TextView
+                        android:layout_width="143dp"
+                        android:layout_height="40dp"
+                        android:background="@color/black"
+                        android:text="Neptün"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:fontFamily="serif-monospace"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starswallpaper"
+    tools:context=".Mars">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/marsGif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/mars_gif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/marsGif">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Mars, Güneş Sistemi'nde Dünya'ya en yakın dördüncü gezegendir.
+                \nMars'ın yüzeyi kızıl renkte görünür ve bu rengi yüzeyde bol miktarda bulunan demir oksitlerinden alır.
+                \nMars'ın atmosferi Dünya'ya göre çok ince ve büyük ölçüde karbondioksit içerir. Ortalama sıcaklık -80 santigrat derece civarındadır.
+                \Mars, gelecekteki insan yerleşimleri için ilgi çekici bir adaydır, ancak bu büyük teknolojik zorluklar içerir.
+                \nMars yüzeyinde su izlerine dair kanıtlar bulunmuştur, bu da gelecekteki insan kolonileri için su kaynaklarının olabileceğini işaret ediyor."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="İlginç Bilgiler"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:text="Mars, Güneş Sistemi'ndeki en büyük volkanik dağ olan Olympus Mons'a ev sahipliği yapar. Bu dağ, Dünya'daki en büyük dağdan daha yüksektir.
+                \nMars, Dünya'dan görülebilen en parlak ikinci gökyüzü cismidir, Ay'dan sonra gelir.
+                \n Mars'ta bir yıl, Dünya'daki bir yılın yaklaşık 687 gününe eşittir.
+                \nMars atmosferi, zararlı radyasyonlardan sınırlı bir koruma sağlar, bu nedenle uzay yolcuları ve gelecekteki Mars kolonileri için radyasyon maruziyeti büyük bir endişe kaynağıdır."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

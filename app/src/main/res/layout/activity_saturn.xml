@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starswallpaper"
+    tools:context=".Saturn">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/satGif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/saturn_gif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/satGif">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Güneş Sistemi'nde altıncı sıradaki gezegendir ve gaz devi olarak kabul edilir.
+                \nSatürn'ün en dikkat çekici özelliği muhteşem halkalarıdır. Bu halkalar, buz parçacıkları ve kayaçlardan oluşur ve ince şeritler halinde çevresini sarmıştır.
+                \nSatürn, çapı yaklaşık olarak 120,000 kilometre olan oldukça büyük bir gezegendir. Bu, Dünya'nın yaklaşık 9 katı büyüklüğündedir.
+                \nSatürn'ün 80'den fazla uyduya sahiptir. En büyük uydusu Titan, atmosferi ve yüzeyi incelemek için gönderilen Cassini-Huygens misyonu tarafından incelenmiştir."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="İlginç Bilgiler"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:text="Satürn'ün uydularından Rhea ve Enceladus, bilim insanları için büyük ilgi çekmektedir. Rhea'nın yüzeyi büyük olasılıkla su buzundan oluşurken, Enceladus'un altında sıcak su okyanusları olabileceğine dair kanıtlar bulunmaktadır.
+                \nNASA ve ESA (Avrupa Uzay Ajansı) tarafından ortaklaşa yürütülen Cassini-Huygens misyonu, 2004-2017 yılları arasında Satürn ve uydularını ayrıntılı bir şekilde inceledi. Bu misyon, Satürn'ün halkaları, uyduları ve atmosferi hakkında büyük miktarda veri topladı.
+                \nSatürn, Roma mitolojisindeki ziraat ve tarım tanrısıdır. Bu nedenle aynı zamanda Tarım Gezegeni olarak da adlandırılır."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

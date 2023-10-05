@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starswallpaper"
+    tools:context=".Venus">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/venGif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/venus_gif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/venGif">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Güneş Sistemi'nde Güneş'e en yakın ikinci gezegendir ve genellikle ''Akşam Yıldız'' veya''Sabah Yıldız'' olarak görünür.
+                \nVenüs'ün yüzeyi, Güneş Sistemi'ndeki en sıcak ikinci yerdir. Atmosferindeki yoğun sera etkisi nedeniyle sıcaklıklar 465°C'ye kadar çıkabilir. Bu, kurşunun erime sıcaklığına yakındır.
+                \nVenüs, manyetik bir alan eksikliği nedeniyle Güneş rüzgarlarına karşı korumasızdır. Bu, atmosfer kaybına yol açabilir."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="İlginç Bilgiler"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:text="Venüs, çok sayıda volkanik dağla kaplıdır. Bu volkanlar, yüzeyde büyük lav akıntılarına neden olmuş ve gezegenin görünümünü şekillendirmiştir.
+                \nVenüs'ün yerçekimi, Dünya'nınkinden yaklaşık %90 daha zayıftır. Bu, yürümek veya taşımak için büyük bir zorluk oluştururdu.
+                \nVenüs'ün yoğun atmosferi, yüzeyini görünmez kılar. Bu nedenle, yüzeyi görmek için uzay sondaları kullanılmalıdır.
+                Venüs, 1962'de Venera 7 misyonu tarafından yüzeyi incelenen ilk gezegen oldu. Bu misyon, Venüs'ün yüzeyindeki sıcaklık ve basınç hakkında önemli veriler sağladı."/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starswallpaper"
+    tools:context=".Uranus">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/uranusGif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/uranus_gif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/uranusGif">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Güneş Sistemi'nde yedinci sıradaki gezegendir ve gaz devi olarak kabul edilir.
+                \nUranüs, Güneş Sistemi'nde diğer gezegenlere göre eğik bir yörüngeye sahiptir. Bu nedenle, diğer gezegenlerden farklı bir şekilde döner ve neredeyse yan yatmış gibi görünür.
+                \nUranüs'ün halkaları varsa bile, çok belirsiz ve zor görülebilen halkalara sahiptir. Bu, diğer gaz devleri gibi çarpıcı halkalara sahip olmadığı anlamına gelir."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="İlginç Bilgiler"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:text="Uranüs'ün bilinen en büyük dört uydusu vardır: Miranda, Ariel, Umbriel ve Titania. Bu uydular, Uranüs'ün halkaları ve özellikle Titania, gelecekteki uzay keşifleri için önemli hedefler olabilir.
+                \nUranüs, 1781 yılında Alman gökbilimci William Herschel tarafından teleskopla keşfedildi. Bu, teleskopla keşfedilen ilk gezegenlerden biri oldu.
+                \nUranüs, Güneş Sistemi'ndeki en yavaş dönen gezegenlerden biridir. Bir günü yaklaşık olarak 17.24 saat sürer."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

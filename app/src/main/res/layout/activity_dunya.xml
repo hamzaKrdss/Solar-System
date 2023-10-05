@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starswallpaper"
+    tools:context=".Dunya">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/dunGif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/dunya"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dunGif">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Dünya, Güneş Sistemi içinde yer alan üçüncü gezegendir.
+Yüzeyinin yaklaşık %70'i su ile kaplıdır ve bu nedenle 'Mavi Gezegen' olarak da bilinir.
+Dünya'nın çapı yaklaşık olarak 12,742 kilometredir ve dönme hızı saatte 1670 kilometredir.
+Yüzeyinde çok çeşitli iklimler ve coğrafi özellikler bulunur, bu nedenle birçok farklı ekosistem ve habitat barındırır.
+Dünya üzerinde yaklaşık olarak 7.9 milyar insan yaşamaktadır ve bu sayı sürekli olarak artmaktadır."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="İlginç Bilgiler"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:text="Dünya'nın yaşını tahmin etmek için kullanılan yöntemler, yaklaşık olarak 4.5 milyar yıl olduğunu göstermektedir.
+Dünya, atmosferi ile özgün bir şekilde korunur ve bu sayede yaşam barındırabilir.
+Dünya'nın en yüksek dağı, Everest Dağı'dır ve yaklaşık olarak 8,848 metre yüksekliği ile bilinir.
+Yeryüzündeki en derin nokta, Mariana Çukuru'dur ve derinliği yaklaşık olarak 11,034 metredir.
+Dünya, birçok farklı dil, kültür ve din barındıran çok çeşitli bir insan nüfusuna sahiptir."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

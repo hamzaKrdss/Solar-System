@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starswallpaper"
+    tools:context=".Gunes">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/sunGif"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/sun_gif"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sunGif">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Güneş, Güneş Sistemi'nin merkezidir. Yaklaşık olarak 4.6 milyar yaşında olan Güneş, bir yıldızdır ve milyarlarca yıl boyunca devam eden termonükleer reaksiyonlar sonucunda enerji üretir. Bu enerji, ısı ve ışık şeklinde Dünya ve diğer gezegenlere ulaşır. Güneş'in yüzey sıcaklığı yaklaşık olarak 5.500 derece Celsius'tir ve içindeki termonükleer reaksiyonlar sayesinde bu sıcaklık milyonlarca yıl boyunca korunur. Güneş ışığı ve ısı, Dünya'da yaşamın kaynağıdır ve aynı zamanda Güneş Sistemi'nde bulunan diğer gezegenlerin ve gökcisimlerinin hareketini etkiler." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="İlginç Bilgiler"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:textSize="24sp"
+                android:textStyle="italic"
+                android:padding="8dp"
+                android:text="*Güneş, her saniye yaklaşık olarak 600 milyon ton hidrojeni helyuma dönüştürerek enerji üretir. Bu termonükleer reaksiyonlar, Güneş'in enerji kaynağıdır.
+
+                \n\n*Güneş Lekeleri, Güneş'in yüzeyinde görülen karanlık lekelerdir ve aslında daha soğuk bölgelerdir. Bu lekelerin nedeni, Güneş'in manyetik aktivitesidir.
+
+                \n\n*Güneş ışığı, Dünya'ya yaklaşık 8 dakika 20 saniyede ulaşır. Yani, Güneş'te olup bitenleri gözlemlememiz, gerçekte 8 dakika önceki olayları gözlemlememiz anlamına gelir.
+
+                \n\n*Güneş Sistemi'ndeki gezegenler, Güneş'in çekim etkisi altında dönerler. Bu nedenle, gezegenlerin yörüngeleri ve hareketleri Güneş'in çekimi tarafından belirlenir.
+
+                \n\n*Güneş, Dünya'nın çapının yaklaşık 109 katı büyüklüğündedir. Bu, Güneş Sistemi'ndeki en büyük nesnedir."/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+</RelativeLayout>
